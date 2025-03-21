@@ -1,0 +1,471 @@
+
+
+<---corejava interview questions>:
+1.what is garbage collection?
+2.what is volatile?
+3.what is singlton class?where use singleton class in real time scenarios****
+4.difference b/w Abstract class and Interface?
+5.explain Hashmap?****
+6.String is synchronization or not?
+7.what is synchrinization?****
+8.how to aviod singlton class in java?
+9.what is diference b/w hashmap and concurrent hashmap?*****
+10.What is cloning and types of cloning ?
+11.how to make cloning?
+12.differecne between object level and class level?(not find)
+13.differecne between object producer and cosumer in multithread?
+14.what is damean thread?
+15.how to make an object as threaad safe?
+17.When we should go for comparable and comparator?
+18.what is encapsulation and how to achive encapsulation?
+19.difference between comparable and comparator?
+20.already we have collections set and list why we should go for map?
+21.difference between ==operator and equeals method?
+22.difference between method overloading and method ovverriding?
+23.difference between java7 and java8?
+25.difference between heap and stack?
+26.difference between final,finnaly and finalize?
+27.Different between list and set?
+28.Different between mutable objects and immutable objects?
+29.what is immutable class and how to create immutable class in java?
+30.how to work hashmap internally?
+31.difference between Stringbuffer and Stringbuilder?
+32.When we should go for String,Stringbuffer and Stringbuilder?
+33.how to handle exceptons in exception Handling?
+34.Can you right mulltible catch() blocks in try() of exception Handling if multible exceptions are occured ?
+35.what is concurrentmodifacationexception when should come?
+36.how to start thread?
+37.difference between hashmap and hashtable?
+38.difference between Arraylist and vector?
+39.difference between checked and unchecked exceptions with examples?
+40.how to create custom exception and with examples?
+41.what is enum keyword and purpose of enum keyword?
+42.difference between Arraylist and Array?
+43.difference between Arraylist and linkedlist?
+44.difference between collection and collections ?
+45.difference between String and StringBuffer?
+46.how many ways String objects are created?
+47.what is serialization and purpose of serialization?
+48.where use serialization in real time?
+49.what is deserialization and purpose of deserialization?
+50.how many ways we are able to create threads in java?IMP
+51.what is purpose of join(),sleep(),wait(),notyfy(),notyfyAll(),yield()?
+52.difference between trancient and vlatile keywords()?imp
+53.what are the types of objects methods in java?
+54.Different between fail fast and fail safe in collections?
+55.Different between private and static?
+56.can we ovverride static methid?
+57.can we overload static method?why?
+58.can we overload main method?
+59.what is static block?
+60.Different between final and static?
+61.how to increase hashmap capacity over default capacity ?
+62.what is real example of immutable class?
+63.where we using singleton class?
+64.java 7 features?
+65.explains oops concepts?
+66.what is abstraction?
+67.what is interface?
+68.what is singleton class?advantage and Disadvantage of singleton and examples?
+69.what is garbage collection and purpose of garbage collection?advantages
+70.why string objects are immutable objects?
+71.jvm architecture?
+72.how to improve java perforamance?role of JIT in java?
+73.why hash map will allow null key only one time?
+74.what is stringconstantpool ?
+75.what is wrapper class?
+76.what are the synchrinized methods in multithreading?
+Ash cloning?
+78.java 8 features?
+79.how to remove duplicates elements by using collections?
+80.what is different between runnable and callable in java?
+81.what is trancient ?
+82.different between classNotFoundException and noClassDefFoundError?
+83.different between treemap and hashmap?
+84.different between Hashmap and Linkedhashmap?
+85.What is inheritence?
+86.find second heighst or largest number like 1 4 7 9 10?
+87.why use treemap?
+88.Explain Thread life cycle?
+89.what is dead lock?
+90.How many ways we are created threads in multitherding?
+91.where use serialization in real time scenario?
+92.how to customize serialization?
+93.what is externalization?
+94.I have 5 selizable objects but i want 3 only how to define?
+95.whare use immutable class in real time scenarios? 
+96.whare use encapsulation in real time scenarios?
+97.where use abstraction in real time scenarios?
+98.where use inheritence in real time scenarios?
+99.where use polimarphism in real time scenarios?
+100.when we should go for arralist and linkedlist?
+101.how to avoid concurrentModificationException?
+102.why should go for concurrentHashmap?
+103.why should go for Hashmap?
+104.why should go for treemap?
+105.how many classes are there in map?
+106.how many classes are there in list?
+107.how many classes are there in set?
+108.how to add list of user defined objects like employee by using collections?
+109.datastruture like linkedlist,queve,stack,tree?
+110.we are getting .class file like war,jar,rar compiletime and buildtime at the time how run the container?
+111.what is thread pool?
+112.what is daemon thread?
+113.what is lock interface?
+114.difference between clob and blob in oracle?
+115.why abstract class?
+116.what is runtime polimorphism and static polimorphism?
+117.how to convert array to list?
+118.difference between http and https in rest?
+119.what is IS and HAS a relation ship?real time example IS and HAS relation?
+120.difference between composition and aggregation?
+121.types of garbagecolletion?
+122.what is heap and scpool?
+123.what is week ref and soft ref?
+124.example of encaptulation ?
+125.example of abstraction?
+126.main purpose of abstract class?
+127.types of error?
+128.what is exception propagation?
+129.what is stackoverflowerror?
+130.diff between Thread.start() and Thread.run()?
+131.how to add elemets in hmap and prints ouputs of hmap by using iterater?
+132.if we add more then duplicate keys what happed in hashmap?
+133.ways of customized exceptions to create?
+134.what is return type of co-variant?
+135.where use volatile keyword?
+136.why synchrinization used for only objects not classes?
+137.what is callbyvalue and callbyreference?
+138.how treemap internally works?
+138.we take the serialize for password so how to implement serialization?
+139.what is hashmap intial size and capacity?
+140.how to caluculate length of the string?
+141.what is prime and write the logic?
+142.contract of hashcode and equels methods in hashmap?
+143.how to calculate equal () method two objects equels or not?
+144.Write a program to reverse country names in Array?how?
+145.how to print elements or characters like hello,hi in next line without using collections or arrays?
+146.given in int[] i have some int values like {2,6,3,7.78,17,8} and i have taken one more int value like 20
+       so how find out extra taken int value is there or not in given int[].
+       for example:int[] arr={2,6,3,7.78,17,8};
+                            int else=20;
+147.how to remove repeated charecters in string?
+148.how to remove hashset duplicate values ?
+149.i have abstrct class in that abstrct class declare abstrct method and imple's that class 
+       so why should go for interfece
+150.can i declere abstrct methog as static if not why ?
+151.where use customized exceptions in your project?
+152.try()
+        S.o.pln(10/0);
+        catch(Exception e){
+         }
+         catch(A.E ae){
+         }
+         what happned
+153.what is random acces interface?
+154.what is prime and program given number is prime or not ?
+155.why do need serialization ?
+156.why call wait(),notyfy and notyfyAll() methods in Synchronized keyword?
+157.what difference b/w synchrinizedMap and concurrentHashMap?
+158.how is garbage collector internally works like perm?
+159.1.If we declare class for method ovverriding A{ 
+              public float getInterst() thorws unchecked Exceptions{   
+              }
+        class B{    
+         public float getInterst() thorws checked Exceptions
+         }what happend
+        2.If we declare class A{ 
+              public float getInterst() thorws checked Exceptions{   
+              }
+        class B{    
+         public float getInterst() thorws unchecked Exceptions
+         }what happend
+160.can ovverriding wait() method?
+161.if we declare try(){}
+        
+        catch(){
+          return false;
+          }
+          finally()
+           return true;?what happent?
+162.if we take mautable object like HashMap in immutable class ?what happend?
+163.if we take Employee emp1=new Employe(venkat);
+                         Employee emp2=new Employe(venkat); in set what happend?how to remove duplicate vallues?
+164.if we declare try(){
+                              }
+                              catch(ServletException,NullPoiterException,FileNotFoundException){
+                               };what happend?
+165.types of class loaders?
+166.how count each word list of String []?
+167.how to protect singleton class b'coz 3 types are there to break the single ton?
+168.what is callble and feature of callble?
+169.if we want to sorting objects in decenting order what will be prefer like comparable or comparator?if comparator ?why
+170.what map are thread safe?
+171.types of map?
+172.Internal flow of garbage colletor?
+173.how to make java code as naming convention?
+178.Exception and Error which pakage in Exception handling?
+179.super class of Exception and Error in Exception handling?
+180.hashmap objects where stored ?
+181.hashmap default size 10 ok but i will add 20 objects now what happens?
+182.add a perticular elements in vector which method used and get the object which method used in vector
+183.whait is upbounding and down bounding?
+184.if we decalre String str=new String("venkat");
+                  String str1=str.concat("null");what o/p printed?
+185.if we declare try{
+    risky code ;
+    }
+    catch(Thorwble t){
+    };what happend? 
+
+186.if we declare try{
+    risky code ;
+    }
+    without catch block?
+187.already we have two ways to create thread so you have any anther ways to create therads like callable and executorService?
+188.how to make ArryaList class as Synchrinozed collcetion?
+189.when we should go for hashset and hashmap?
+190.hashset null value where stored hashtable that null value?
+191.diff b/w primitive types and wrapper classes?
+192.diff b/w Stringconstantpool and heap memory?
+193.how to print hashmap 2 elements like 1.hp.put(1,venkat);2.hp.put(2,"swamy"); by using loops?
+194.how to retrive objects and add objects from vector?
+195.how to compare 2 objects by using equals()method?
+196.if we declare final class student {
+     private String id;
+     private String name;then is it passible to change the value?
+196.can overload and ovverride constructor?
+197.why constrctor?
+198.if we declare super class method default int getInterest() and declare subclass method private int getInterest()?what happend?
+199.
+
+      
+        
+spring interview questions: 
+1.Spring mvc flow?****
+2.difference between @component and @quelifiar in Spring?
+3.difference between @component and @service in Spring?
+4.what is d/w apllicationcontext and bean factory container?
+5.Different between looscoupling and tight coupling in Spring?
+6.Already SpringMVC is there why should go for SpringBoot?
+7.what is dependency injection and where to use dependency injection in methods?
+8.advantages of loosily coupling in spring?
+9.how to provide security in spring?
+10.what is service in Spring?
+11.types of spring beans and explain?
+12.types of autowiring and explain?
+13.types of autowiring attributes?
+14.what is IOC?
+15.difference between @controller and @restcontroller?
+16.explain life cycle of in spring?
+17.what is bean?
+18.what is circular dependency
+18.what is @Value?
+19.difference between IOC and DI?
+20.advatage of Spring?
+21.what is viewresolver and handling mapping comonent?
+22.what is Dispatchercontroller?
+23.what is @requestMapping
+24.what putMapping(),getMapping().postMapping().deleteMapping()?
+25.disadvatages of singleton and protype scope ?
+26.how to get the datece from ui?
+28.how to connect db in spring boot?
+29.how to call service from ui?
+30.difference b/w @Autiwired and@Resource?
+31.difference b/w @component and@Bean?
+32.where declare @Bean Annotation
+33.components of Spring and advatages ?
+34.diff b/w @Component and @Contriller?
+35.if i have controller class and service class so how to connect those two class?
+36.i have 100 different employee objects which scopes are used in this scenarios?
+37.when throws NouniqueException?
+38.components of Spring and advantages of Spring?
+
+
+
+
+
+
+hibernate interview questions:
+difference b/w session and scope in hibernate?
+difference between save and persist in hibernate?
+difference between save and saveOrUpdate in hibernate?
+difference between load and get in hibernate?
+difference between merge and update methods in hibernate?
+how many ways we can wright hql querys and what are the methods using?
+Explain spring with hibernate integration?
+what is ORM?advantages of ORM in hibernate?
+Explain how to configurure db and hibernate in hibernate.xml?
+what is cashcade?how many ways cashcades are available in hibernate?
+what are the types of relations available in hibernate?
+what are the types of object states available in hibernate and explian?
+what are the types of generator classes in hibernate?
+what is lozy loading in hibernate?
+already jdbc is there why should go for hibernate?
+which is better like jdbc and hibernate for retrive fatest data from db?
+what is caching and types of cache?
+what eh cache?
+what is many-to-many relationship and how many tables are required?
+what is one-to-many?
+difference between criteria and sql ?
+what is entity ?
+what is primary key?
+what is client application or primary application of hibernate?
+what is dirtycheking?
+Main Difference b/w get() method and load()method ?
+how to connect native sql?
+in relationship i have taken parent and chield so where place relationshinp ?
+i have two tables like employe and employeDetails so how to save data into that 2 tables and how to get data from 2 tables?
+how to connect caching?
+is Seesion thread safe or not?why?
+is SessionFactiry thread safe or not ?why?
+what is caching?
+how to configure Session?
+how to configure SessionFactory?
+if we update a perticuler time and date then which is used?
+if we take one-to-many relation what are the steps required?
+how to connect db from hibernate and which are classes are required and annotations?
+hibernate annotations?
+
+
+
+
+servalet and jsp interview questions:
+
+implicit objects in jsp?****
+jsp tags like import and include purpose?
+difference b/w Servlet and jsp?
+how to make servalet class?
+what is servalet?
+life cycle of servalet and methods?
+what are the jstl tags in jsp? 
+what is difference between config and context in servalet?
+what id requestDispatcher?
+
+
+ 
+springBoot interview questions:
+how to call service in SpringBoot?
+what are the custom end points in SpringBoot?
+what is atcuator in SpringBoot?
+difference between Spring and SpringBoot?
+what are the advantages of SpringBoot?disadvantages of spring boot?
+How to configure Spring in SpringBoot?
+How to configure hibernate in SpringBoot?
+flow of Spring boot in your application?
+how to configure db in application.properties file of Spring boot?
+what are the properties of db required in Spring boot?
+how to call inputs in Spring boot?
+if we privide jetty server insteed of tomcat server whta happend?
+what is spring boot and autowire of sb and scopes of sb?
+what are the interfaces used in sb?
+how to configure hibernate using Spring Boot?
+how to provide secuty?what is oAuth and tokanizers
+how to add exterserver like weblogic not spring boot in build server ?
+how to connect multible dbs?
+where place @Repositary,@Bean and @RestController?
+what is @Springboot annotation?
+what value browser?
+where actuvater configure in ur project?
+i have 10 actuator configuer so how to check which is fail and success?
+what is production ?
+diff b/w hibernate and jpa?
+deff b/w wedapplication and webservice?
+diff b/w @RequestMapping and @pathvarible?
+what is @RequestMapping?
+what is pathevarible and how to define pathvarible?
+how to implements actuator?
+what is stater types of stators?
+diff b/w @Reposity and @Service?
+what are predefined methods of jpa?
+annotations of Spring boot?
+how to connect ibatics using Sprong boot?
+i have 2 different services so how to those 2 services?
+how to read the data and add the data from db?how?what are the classes need and annotins?
+why propertys files?
+ 
+
+
+
+java 8 interview questions:
+1.what is lamda expression in java8?
+2.what is funtional interface?
+3.what is optional class?
+4.what are the types of streams?which method we use instreams?
+5.where we use stream in real time scenario?
+6.where we use Funtional interface because of already interfaces are there in real time scenario?
+7.difference between linkedlist and optional?
+8.what are types of streams?
+9.what is parrallel opreation and sequetial operations 
+10.what is difference between map()method and flatMap() Method?
+11/what is intermediate and terminal operation and types?
+12.forEach() is which operation?
+13.what is default method and when use that method?
+14-->suppose i have exiting project in that project i was taken interfeace and i was declare one abstrct method ,
+  more then one other methods in interfeace,impliments that interface mthods also.
+   while if we want provide extra methdos and default implimentation then how to provide?
+15.i have employee object with value and i want sorting order in java8 how to provide sorting?
+16.syntax of funtional interface?
+17.where us funtional interface?
+18.already i have arraylist integer elements like 20 40 35 45 etc so if add 5% marks to existing marks in java8 Lambda expression how?
+19.if count marks >35 or <35 in exsting arraylist objects using java8?how?
+20.what is predicate?
+21.if we want to take two aruguments as input?how?like by-predicate?
+22.what is intermediate methods and types ?
+23.what is intermediate methods and types ?
+24.any features is there for multithreading?
+
+ 
+angular2 interview questions:
+what are diectives availabe in angular2 and explain?
+difference between angulr1 and angular2?
+i have uname and pwd but special sybals not in javascrpt so how to this case?
+how to configuer filter,files in java Script?
+
+
+webservice interview questions:
+how to get the information in rest?
+what is diferent b/w put and post methods in rest fulwebservices?(vvimp)
+how to handle exceptions in rest?
+difference between soap and restfull webservice?
+whit is entity in rest?
+what are the http methods you using in rest?(vvimp)
+what is idempotent ?why call put is idempotent?
+names of idempotent in rest?(vvimp)
+how to create,update ,delete and get orderService by using rest urls in progrmatic ?
+what are types of http errors ?(vvimp)
+what is 204 http error?
+what is rest ?(vvimp)
+why rest is archistecral style and exgatatly meaning of rest?
+what is cars?
+what security and how to provide security in rest?(vvimp)
+difference between http and https in rest?
+what stateless ?
+how to call service without using rest full?
+difference between contextloader and ?
+
+Michroservices interview questions
+1.what is microservices?
+2.diff b/w microservices and monolithic?
+3.what is service?
+4.what load balencer?
+5.what is eurekha server?
+6.why use config server?
+7.i have 100 service so how to check who is fail or succsses
+8 what 12 prichples of michroservices?
+9.how to configure config server?
+10.what are annotations used for microservices?
+11.purpose of @Async annotation?
+12.purpose of circuit breakout?
+13.how to connect one service to anther service
+
+ 
+mysql interview questions:
+difference between heap table ant temperary table?
+difference between primary key and foregn key?
+what is primary key?
+what is foreign key?
+
+sql interview questions:
+difference b/w view and table in sql?(vvimp)
+what are types of joins
